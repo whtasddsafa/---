@@ -1,0 +1,1 @@
+.login-bottom-service{height:100rpx;width:100%;display:flex;flex-direction:row;align-items:center}.login-bottom-service .s{line-height:0rpx}.login-bottom-service .s image{width:60rpx;height:60rpx}.login-bottom-service .d button{background-color:#f8f8f8;width:640rpx;font-size:32rpx;text-align:left}

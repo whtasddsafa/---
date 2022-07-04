@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.address-info-box .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 96rpx;
+  width: 100%;
+  padding: 18rpx 26rpx;
+  border-bottom: 1px solid #e1e1e1;
+}
+.address-info-box .address .name {
+  font-size: 34rpx;
+}
+.address-info-box .address .detailed {
+  font-size: 28rpx;
+  color: #C0C0C0;
+}
+

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tall.data-v-7ca03750 {
+  height: 700rpx;
+}
+.tall .allOrders.data-v-7ca03750 {
+  height: 520rpx;
+  margin: 10rpx 10rpx 30rpx 10rpx;
+  padding: 6rpx;
+  background-color: #ffffff;
+  border-radius: 18rpx;
+}
+.tall .allOrders .top.data-v-7ca03750 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 28rpx;
+  height: 60prx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0 16rpx;
+  padding-bottom: 10rpx;
+  font-family: Microsoft Yahei;
+}
+.tall .allOrders .left-img-box.data-v-7ca03750 {
+  box-sizing: border-box;
+  height: 350rpx;
+  padding: 20rpx 14rpx;
+  margin-bottom: 10rpx;
+}
+.tall .allOrders .left-img-box .data.data-v-7ca03750 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 18rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+.tall .allOrders .left-img-box .data .img-box image.data-v-7ca03750 {
+  border-radius: 16rpx;
+  width: 260rpx;
+  height: 318rpx;
+}
+.tall .allOrders .left-img-box .data .right-box.data-v-7ca03750 {
+  margin-left: 20rpx;
+  width: 424rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tall .allOrders .left-img-box .data .right-box .text-box-top.data-v-7ca03750 {
+  margin-top: 10rpx;
+}
+.tall .allOrders .left-img-box .data .right-box .text-box-top .span1.data-v-7ca03750 {
+  font-size: 40rpx;
+  font-family: Microsoft Yahei;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 430rpx;
+  height: 70rpx;
+}
+.tall .allOrders .left-img-box .data .right-box .text-box-top .span2.data-v-7ca03750 {
+  font-family: Microsoft Yahei;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  width: 442rpx;
+  height: 62rpx;
+  margin: 10rpx 0;
+}
+.tall .allOrders .left-img-box .data .right-box .text-box-top .span3.data-v-7ca03750 {
+  font-family: Microsoft Yahei;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  height: 62rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  table-layout: fixed;
+  word-break: break-all;
+  overflow: hidden;
+}
+.tall .allOrders .left-img-box .data .right-box .text-box-top .span4.data-v-7ca03750 {
+  font-family: Microsoft Yahei;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  width: 426rpx;
+  height: 100rpx;
+  table-layout: fixed;
+  word-break: break-all;
+  overflow: hidden;
+}
+.tall .allOrders .order-bottom.data-v-7ca03750 {
+  color: #000000;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  font-family: Microsoft Yahei;
+  font-weight: 500;
+  justify-content: space-between;
+  margin: 30rpx 16rpx 0rpx 16rpx;
+}
+.tall .allOrders .order-bottom .bottom1.data-v-7ca03750 {
+  display: flex;
+  flex-direction: row;
+}
+.tall .allOrders .order-bottom .bottom1 .span-top.data-v-7ca03750 {
+  margin-right: 40rpx;
+}
+.tall .allOrders .order-bottom .bottom1 .bottom-span.data-v-7ca03750 {
+  display: flex;
+  flex-direction: row;
+}
+.tall .allOrders .order-bottom .bottom1 .bottom-span .bottom-span1.data-v-7ca03750 {
+  width: 170rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tall .allOrders .order-bottom .bottom1 .bottom-span .bottom-span3.data-v-7ca03750 {
+  margin-left: 12rpx;
+}
+.tall .allOrders .order-bottom button.data-v-7ca03750 {
+  width: 170rpx;
+  background: black;
+  color: white;
+}
+

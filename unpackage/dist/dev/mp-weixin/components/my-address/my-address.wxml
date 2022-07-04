@@ -1,0 +1,1 @@
+<view class="login-bottom-service"><view class="s"><image src="../../static/weizhi.png"></image></view><view class="d"><button type data-event-opts="{{[['tap',[['gotoAddress',['$event']]]]]}}" bindtap="__e">收货地址</button></view></view>

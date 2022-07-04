@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-address": "/components/my-address/my-address"
+  },
+  "component": true
+}

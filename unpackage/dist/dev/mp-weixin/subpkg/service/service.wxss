@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tall .service-top {
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .service-top .service-text {
+  font-size: 34rpx;
+  color: #666666;
+}
+.tall .service-top .service-button {
+  margin-top: 40rpx;
+}
+.tall .service-top .service-button button {
+  width: 600rpx;
+  color: yellow;
+  background-color: black;
+  font-weight: 500;
+}
+.tall .service-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .service-bottom .QR-code {
+  margin: 40rpx 0;
+}
+.tall .service-bottom .QR-code image {
+  width: 240rpx;
+  height: 240rpx;
+}
+.tall .service-bottom .service-bottom-text {
+  text-align: center;
+  font-size: 34rpx;
+  color: #666666;
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 150,
+  "usingComponents": {
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "min-action-sheet": "/components/min-action-sheet/min-action-sheet",
+    "likes": "/components/my-collection/my-collection"
+  }
+}

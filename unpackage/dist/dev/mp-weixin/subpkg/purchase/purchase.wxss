@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tall {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tall .purchase-tall .purchase-top {
+  padding: 40rpx 20rpx 20rpx 20rpx;
+  height: 380rpx;
+  background: #000000;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .img-box image {
+  width: 260rpx;
+  height: 350rpx;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box {
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  width: 424rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-top {
+  margin-top: 10rpx;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-top .span1 {
+  font-size: 40rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 160rpx;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-top .span2 {
+  margin-top: 20rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #d0d0d0;
+  width: 424rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-top .span3 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #d0d0d0;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 88rpx;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-bottom .text-box-bottom-left {
+  font-size: 32rpx;
+  line-height: 88rpx;
+  color: #ffffff;
+}
+.tall .purchase-tall .purchase-top .left-img-box-bottom .right-box .text-box-bottom .top-card-text-right {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  color: #ffffff;
+  line-height: 48rpx;
+}
+.tall .purchase-tall .address-choose-box {
+  margin: 50rpx 30rpx;
+}
+.tall .purchase-tall .address-choose-box button {
+  background: black;
+  color: white;
+}
+.tall .purchase-tall .changCi {
+  width: 692rpx;
+  margin: 30rpx;
+}
+.tall .purchase-tall .changCi .changCix {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #787878;
+}
+.tall .purchase-tall .changCi .changCi0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 718rpx;
+}
+.tall .purchase-tall .changCi .changCi0 .changCi1 {
+  margin-right: 28rpx;
+}
+.tall .purchase-tall .changCi .changCi0 .changCi1 button {
+  background: #000000;
+  color: white;
+}
+.tall .purchase-tall .CC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30rpx;
+  font-size: 32rpx;
+}
+.tall .purchase-tall .CC .CC1 {
+  color: #787878;
+}
+.tall .purchase-tall .address-info-box {
+  margin: 20rpx;
+  font-size: 32rpx;
+  height: 180rpx;
+  padding: 0 10rpx;
+}
+.tall .purchase-tall .address-info-box .row1 .row1-left {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px scolid #7e7e7e;
+}
+.tall .purchase-tall .address-info-box .row1 .row1-left .username {
+  color: #787878;
+}
+.tall .purchase-tall .address-info-box .row1 .row1-right {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tall .purchase-tall .address-info-box .row1 .row1-right .phone {
+  color: #787878;
+}
+.tall .purchase-tall .purchase-bottom .content {
+  margin: 26rpx;
+}
+.tall .purchase-tall .purchase-bottom .content .box {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.tall .purchase-tall .purchase-bottom .content .box .phone-box {
+  width: 400rpx;
+  border: 1rpx solid #C0C0C0;
+  border-radius: 10rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+.tall .purchase-tall .purchase-bottom .content .box .phone-box input {
+  font-size: 30rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.tall .purchase-tall .purchase-bottom .content .box .phone-box button {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.tall .purchase-tall .purchase-bottom .alertText {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.tall .button {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.tall .button button {
+  background: black;
+  color: white;
+}
+

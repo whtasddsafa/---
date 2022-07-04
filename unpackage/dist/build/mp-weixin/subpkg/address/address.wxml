@@ -1,0 +1,1 @@
+<view class="address-info-box"><view class="address"><view class="name">{{''+address.userName+", "+address.telNumber+''}}</view><view class="detailed">{{''+addstr+''}}</view></view></view>

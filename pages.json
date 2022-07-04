@@ -1,0 +1,176 @@
+{
+	"pages": [{
+            "path" : "pages/home/home",
+            "style" :{
+              "enablePullDownRefresh": true
+            }
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :{}
+        }
+    ],
+    // "easycom": {
+    //   "autoscan": true,
+    //   "custom": {
+    //     "lb-picker": "@/components/lb-picker/index.vue"
+    //   }
+    // },
+    // 分包
+    "subPackages": [
+      {
+        "root":"subpkg",
+        "pages":[{
+                    "path" : "details/details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+                    "onReachBottomDistance": 300,
+                    "enablePullDownRefresh": true,
+                    "backgroundColor":"#f8f8f8"
+                    
+                }
+                
+                }
+                ,{
+                    "path" : "address/address",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "我的地址",
+                    "enablePullDownRefresh": false
+                    
+                }
+                
+                }
+                ,{
+                    "path" : "newAddress/newAddress",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "新增地址",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "order/order",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+                    "onReachBottomDistance": 150
+                }
+                
+                }
+                ,{
+                    "path" : "bill/bill",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+                    "onReachBottomDistance" : 150
+                }
+                
+                }
+                ,{
+                    "path" : "collection/collection",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "service/service",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "complaints/complaints",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "purchase/purchase",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "orderDetails/orderDetails",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "payment/payment",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "billUse/billUse",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+      }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "BABYFACE",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+  "tabBar": {
+    "selectedColor":"#f4ea2a",
+    "list": [
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"static/home.png",
+        "selectedIconPath":"static/homeSelect.png"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text":"我的",
+        "iconPath":"static/my.png",
+        "selectedIconPath":"static/mySelect.png"
+      }
+    ]
+  }
+}

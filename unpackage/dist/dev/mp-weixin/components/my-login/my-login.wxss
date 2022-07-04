@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login-container {
+  height: 750rpx;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-container .btn-login {
+  width: 90%;
+  border-radius: 20px;
+  margin: 15px 0;
+  background-color: #eaea00;
+  color: black;
+}
+

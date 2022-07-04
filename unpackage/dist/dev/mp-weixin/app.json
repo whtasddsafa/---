@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "details/details",
+        "search/search",
+        "address/address",
+        "newAddress/newAddress",
+        "order/order",
+        "bill/bill",
+        "collection/collection",
+        "service/service",
+        "complaints/complaints",
+        "purchase/purchase",
+        "orderDetails/orderDetails",
+        "payment/payment",
+        "billUse/billUse"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BABYFACE",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#f4ea2a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeSelect.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/mySelect.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

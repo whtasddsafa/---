@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.collection {
+  width: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collection .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rpx;
+  height: 50rpx;
+}
+.collection .text-span {
+  font-size: 22rpx;
+  color: gray;
+}
+

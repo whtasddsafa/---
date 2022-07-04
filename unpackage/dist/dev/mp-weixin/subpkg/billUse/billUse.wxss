@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.billUse {
+  padding: 24rpx;
+}
+.billUse .billUse-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.billUse .billUse-top .billUse-top1 {
+  font-size: 28rpx;
+}
+.billUse .billUse-top .billUse-top2 {
+  font-size: 28rpx;
+}
+.billUse .purchase-top {
+  padding: 40rpx 2rpx 20rpx 2rpx;
+  height: 290rpx;
+}
+.billUse .purchase-top .left-img-box-bottom {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.billUse .purchase-top .left-img-box-bottom .img-box image {
+  width: 230rpx;
+  height: 290rpx;
+  border-radius: 12rpx;
+}
+.billUse .purchase-top .left-img-box-bottom .right-box {
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  width: 746rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.billUse .purchase-top .left-img-box-bottom .right-box .text-box-top {
+  margin-top: 10rpx;
+}
+.billUse .purchase-top .left-img-box-bottom .right-box .text-box-top .span1 {
+  font-size: 40rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  weight: 400rpx;
+  font-style: normal;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 160rpx;
+}
+.billUse .purchase-top .left-img-box-bottom .right-box .text-box-top .span2 {
+  margin-top: 20rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #868686;
+  width: 300rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.billUse .purchase-top .left-img-box-bottom .right-box .text-box-top .span3 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #868686;
+}
+.billUse .bill-QR-code {
+  width: 100%;
+  height: 420rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.billUse .bill-QR-code image {
+  width: 300rpx;
+  height: 300rpx;
+}
+.billUse .hxm {
+  display: flex;
+  align-items: center;
+}
+.billUse .hxm .input-view > text.data-v-c8ae5176 {
+  margin-left: 0px !important;
+  font-size: 32rpx !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+}
+.billUse .hxm .input-view > view.data-v-c8ae5176 {
+  width: 75% !important;
+}
+.billUse .hxm .input-view.data-v-c8ae5176 {
+  width: 100% !important;
+}
+.billUse .hxm button {
+  background: #000000;
+  color: white;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 180rpx;
+}
+.billUse .admissionTicket .admissionTicket-span {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 10rpx 0;
+}
+.billUse .admissionTicket .ticketType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 26rpx;
+  padding: 20rpx 10rpx;
+  color: #676767;
+}
+.billUse .admissionTicket .actualPayment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 28rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.billUse .admissionTicket .actualPayment .actualPayment-l {
+  font-weight: 600;
+}
+.billUse .admissionTicket .actualPayment .actualPayment-r {
+  color: #c60000;
+}
+

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.app .allOrders {
+  height: 410rpx;
+  padding: 10rpx 20rpx 10rpx 20rpx;
+  margin: 10rpx 10rpx 30rpx 10rpx;
+  background-color: #ffffff;
+  border-radius: 18rpx;
+}
+.app .allOrders .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 28rpx;
+  height: 60prx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 16rpx;
+}
+.app .allOrders .left-img-box {
+  box-sizing: border-box;
+  height: 350rpx;
+}
+.app .allOrders .left-img-box .data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.app .allOrders .left-img-box .data .img-box image {
+  border-radius: 16rpx;
+  width: 260rpx;
+  height: 318rpx;
+}
+.app .allOrders .left-img-box .data .right-box {
+  margin-left: 20rpx;
+  width: 424rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app .allOrders .left-img-box .data .right-box .text-box-top {
+  margin-top: 10rpx;
+}
+.app .allOrders .left-img-box .data .right-box .text-box-top .span1 {
+  font-size: 40rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 430rpx;
+  height: 70rpx;
+}
+.app .allOrders .left-img-box .data .right-box .text-box-top .span2 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  width: 442rpx;
+  height: 62rpx;
+  margin: 10rpx 0;
+}
+.app .allOrders .left-img-box .data .right-box .text-box-top .span3 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  height: 62rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  table-layout: fixed;
+  word-break: break-all;
+  overflow: hidden;
+}
+.app .allOrders .left-img-box .data .right-box .text-box-top .span4 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  width: 426rpx;
+  height: 100rpx;
+  table-layout: fixed;
+  word-break: break-all;
+  overflow: hidden;
+}
+

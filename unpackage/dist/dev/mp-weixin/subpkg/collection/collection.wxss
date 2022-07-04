@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tall {
+  box-sizing: border-box;
+  padding: 0 10rpx;
+}
+.tall .left-img-box {
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  padding: 0 16rpx 20rpx 16rpx;
+}
+.tall .left-img-box .data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.tall .left-img-box .data .img-box image {
+  border-radius: 12rpx;
+  width: 270rpx;
+  height: 360rpx;
+}
+.tall .left-img-box .data .right-box {
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  width: 424rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tall .left-img-box .data .right-box .text-box-top {
+  margin-top: 10rpx;
+}
+.tall .left-img-box .data .right-box .text-box-top .span1 {
+  font-size: 40rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 160rpx;
+}
+.tall .left-img-box .data .right-box .text-box-top .span2 {
+  margin-top: 20rpx;
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+  width: 318rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.tall .left-img-box .data .right-box .text-box-top .span3 {
+  font-family: 'Arial Normal', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26rpx;
+  letter-spacing: normal;
+  color: #5a5a5a;
+}
+.tall .left-img-box .data .right-box .text-box-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16rpx;
+  height: 88rpx;
+}
+.tall .left-img-box .data .right-box .text-box-bottom .text-box-bottom-left {
+  font-size: 32rpx;
+  line-height: 88rpx;
+}
+.tall .left-img-box .data .right-box .text-box-bottom .top-card-text-right {
+  width: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tall .left-img-box .data .right-box .text-box-bottom .top-card-text-right image {
+  width: 52rpx;
+  height: 52rpx;
+}
+.tall .left-img-box .data .right-box .text-box-bottom .top-card-text-right .text-span {
+  font-size: 22rpx;
+  color: gray;
+}
+

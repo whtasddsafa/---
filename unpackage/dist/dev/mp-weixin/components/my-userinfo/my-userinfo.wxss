@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tall {
+  background-color: #F8F8F8;
+}
+.tall button::after {
+  border: none;
+}
+.tall .login-container {
+  height: 350rpx;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .login-container .image {
+  border-radius: 100rpx;
+  height: 200rpx;
+  width: 200rpx;
+}
+.tall .login-container ._span {
+  margin-top: 20rpx;
+}
+.tall .login-container .vip {
+  color: #ffc905;
+}
+.tall .login-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100rpx;
+  line-height: 184rpx;
+  background-color: #F8F8F8;
+}
+.tall .login-middle .login-bill {
+  border-right: 1px scolid #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .login-middle .login-bill .a {
+  height: 50rpx;
+}
+.tall .login-middle .login-bill .a image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.tall .login-middle .login-bill .b {
+  height: 50rpx;
+}
+.tall .login-middle .login-bill .b .text-span {
+  font-size: 32rpx;
+}
+.tall .login-middle .login-order {
+  border-right: 1px scolid #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .login-middle .login-order .a {
+  height: 50rpx;
+}
+.tall .login-middle .login-order .a image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.tall .login-middle .login-order .b {
+  height: 50rpx;
+}
+.tall .login-middle .login-order .b .text-span {
+  font-size: 32rpx;
+}
+.tall .login-middle .login-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tall .login-middle .login-collection .a {
+  height: 50rpx;
+}
+.tall .login-middle .login-collection .a image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.tall .login-middle .login-collection .b {
+  height: 50rpx;
+}
+.tall .login-middle .login-collection .b .text-span {
+  font-size: 32rpx;
+}
+.tall .login-bottom {
+  padding: 20rpx;
+  margin: 70rpx 0 0 20rpx;
+}
+.tall .login-bottom .login-bottom-address {
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+}
+.tall .login-bottom .login-bottom-service {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tall .login-bottom .login-bottom-service .s image {
+  width: 66rpx;
+  height: 66rpx;
+}
+.tall .login-bottom .login-bottom-service .d button {
+  background-color: #F8F8F8;
+  width: 640rpx;
+  font-size: 32rpx;
+  text-align: left;
+}
+.tall .login-bottom .login-bottom-complaints {
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+}
+

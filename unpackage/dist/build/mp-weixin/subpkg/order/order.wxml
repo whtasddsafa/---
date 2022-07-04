@@ -1,0 +1,1 @@
+<view class="tabs"><my-order bind:tabsItemChange="__e" vue-id="744d27ae-1" data-event-opts="{{[['^tabsItemChange',[['handleTabsItemChange']]]]}}" bind:__l="__l"></my-order></view>

@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "subpkg/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/purchase/purchase",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/details/details",
+          "query": "goodsId=12",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/purchase/purchase",
+          "query": "goodsId=13",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/purchase/purchase",
+          "query": "goodsId=13",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/order/order",
+          "query": "id=33",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/payment/payment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/billUse/billUse",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/purchase/purchase",
+          "query": "goodsId=12",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

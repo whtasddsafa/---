@@ -1,0 +1,1 @@
+<view class="app"><button data-event-opts="{{[['tap',[['testAs1',['$event']]]]]}}" bindtap="__e">更多</button><min-action-sheet class="vue-ref" vue-id="422be728-1" data-ref="as" bind:__l="__l"></min-action-sheet></view>

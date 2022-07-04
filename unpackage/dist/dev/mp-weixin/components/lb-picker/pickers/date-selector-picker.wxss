@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.lb-picker-column.data-v-1c79b1cc {
+  height: 34px;
+  padding: 0 10px;
+  display: flex;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.lb-picker-column-label.data-v-1c79b1cc {
+  font-size: 16px;
+  text-align: center;
+  flex: 1;
+  text-overflow: ellipsis;
+  transition-property: color;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.lb-picker-column-label-left.data-v-1c79b1cc {
+  text-align: left;
+}
+.lb-picker-column-label-center.data-v-1c79b1cc {
+  text-align: center;
+}
+.lb-picker-column-label-right.data-v-1c79b1cc {
+  text-align: right;
+}
+

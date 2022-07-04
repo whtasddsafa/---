@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.payment-tall .payment-top {
+  height: 140rpx;
+  width: 100%;
+  background: black;
+  padding: 30rpx 26rpx;
+}
+.payment-tall .payment-top .payment-top1 {
+  width: 700rpx;
+  font-size: 50rpx;
+  color: white;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.payment-tall .payment-top .payment-top2 {
+  font-size: 28rpx;
+  color: #d1d1d1;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 700rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.payment-tall .payment-middle {
+  padding: 26rpx 26rpx;
+  background-color: #ffffff;
+}
+.payment-tall .payment-middle .payment-middle1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60rpx;
+}
+.payment-tall .payment-middle .payment-middle1 .payment-middle1-1 {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .payment-middle .payment-middle1 .payment-middle1-2 {
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.payment-tall .payment-middle .hysj {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .payment-middle-b {
+  padding: 26rpx 26rpx;
+  background-color: #ffffff;
+  margin-bottom: 16rpx;
+}
+.payment-tall .payment-middle-b .payment-middle1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20rpx;
+  line-height: 20rpx;
+}
+.payment-tall .payment-middle-b .payment-middle1 .payment-middle1-1 {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .payment-middle-b .payment-middle1 .payment-middle1-2 {
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.payment-tall .payment-middle-b .hysj {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .xz {
+  padding: 16rpx 0;
+}
+.payment-tall .xz .payment-middle33 {
+  padding: 0 26rpx;
+  background-color: #FFFFFF;
+}
+.payment-tall .xz .payment-middle33 .payment-middle3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 98rpx;
+  line-height: 98rpx;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #efefef;
+}
+.payment-tall .xz .payment-middle33 .payment-middle3 .payment-middle3-1 {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .xz .payment-middle33 .payment-middle3 .payment-middle3-2 {
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.payment-tall .xz .payment-middle33 .hysj {
+  font-size: 26rpx;
+  color: #6c6c6c;
+}
+.payment-tall .notice {
+  background-color: #FFFFFF;
+  padding: 26rpx;
+}
+.payment-tall .notice .notice1 {
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+}
+.payment-tall .notice .notice2 {
+  font-size: 28rpx;
+  color: #888888;
+}
+.payment-tall .goods-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.payment-tall .goods-nav .uni-tab__cart-sub-left.data-v-279c619b {
+  padding: 0px;
+}
+.payment-tall .goods-nav .uni-tab__right.data-v-279c619b {
+  border-radius: 1px;
+  margin: 0px;
+}
+.payment-tall .bar {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+}
+.payment-tall .bar .bar_item {
+  width: 35%;
+  line-height: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+  background: black;
+  color: #b8b8b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payment-tall .bar .bar_item1 {
+  width: 30%;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #ffea00;
+}
+
